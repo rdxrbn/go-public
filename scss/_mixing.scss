@@ -1,0 +1,26 @@
+@mixin title($color) {
+  padding-top:85px;
+  color: $color;
+  font-family: Proxima-Bold;
+  font-size: 72px;
+  margin-bottom:38px;
+}
+@mixin box-new($background,$color,$padding) {
+    background: $background;
+    padding: $padding;
+    color: $color;
+    font-family: Proxima-Regular;
+    font-size:rem-calc(17);
+    margin:7.5px;
+}
+
+@mixin web-name($bcolor,$color) {
+  padding: 4px 16px;
+  border:1px solid $bcolor;
+  font-size: 15px;
+  font-family: Proxima-Regular;
+  color: $color;
+  position: absolute;
+  right:15px;
+  top:15px;
+}

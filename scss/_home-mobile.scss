@@ -1,0 +1,371 @@
+@include breakpoint(small down) {
+  //Banner Area
+  .main-bg {
+    .banner-text-wrapper {
+      .date {
+      }
+
+      .title {
+      }
+
+      p {
+        font-size: 13px;
+        line-height: 17px;
+      }
+
+      .more {
+        margin-bottom: 54px;
+
+        .down-icon {
+          padding: 10px;
+
+          i {
+          }
+        }
+
+        .text {
+          font-size: 13px;
+        }
+      }
+    }
+
+  }
+
+  //Navigation
+  .title-bar {
+    background: $white !important;
+    color: $black !important;
+
+    .menu {
+      img {
+        max-width: 80px;
+      }
+    }
+
+    .title-bar-title {
+      font-size: 9px;
+      text-transform: uppercase;
+      margin-right:10px;
+      color: $color-orange;
+    }
+
+    .menu-icon2 {
+      background: $color-orange;
+      padding: 9px 12px;
+      border-radius: 50%;
+    }
+  }
+
+  .menu-icon2::after {
+    content: "\f0c9";
+    font-family: FontAwesome;
+    font-size: 12px;
+    color: $white;
+  }
+
+  .top-bar {
+    .top-bar-left {
+      .menu {
+        li {
+          img {
+
+          }
+        }
+      }
+    }
+
+    .top-bar-right {
+      .menu {
+        &.m-item {
+          li {
+            width:100%;
+
+            &.btn-active {
+              a {
+
+              }
+            }
+            a {
+
+              &.social {
+
+
+                i {
+
+                }
+              }
+            }
+
+            .btn-yellow {
+
+              i {
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  //event
+  .event {
+    padding-left: 22px;
+    padding-right: 15px;
+
+    .title {
+      padding-top: 20px;
+      margin-bottom: 0;
+      font-size: 40px;
+      padding-left: 5px;
+    }
+
+    p {
+
+    }
+
+    img {
+      &.go-public,&.tech-soup {
+
+      }
+
+      &.tech-soup {
+
+      }
+    }
+  }
+
+
+  //
+  .programma {
+    padding-left: 22px;
+    padding-right: 15px;
+
+    .title {
+      padding-top: 20px;
+      margin-bottom: 10px;
+      font-size: 34px;
+      padding-left: 5px;
+    }
+
+    .box-green {
+      width: 63px;
+
+      span {
+      }
+
+      &.spl {
+        width: 65px;
+      }
+    }
+    .box-white {
+      padding: 25px 10px 5px 15px;
+      width: calc(100% - 93px);
+      &.spl {
+        width: calc(100% - 96px);
+
+        p {
+        }
+      }
+      .title-t {
+        font-size: 14px;
+        line-height: 17px;
+      }
+
+      p {
+        font-size: 12px;
+      }
+    }
+  }
+
+  .box-route {
+    margin: 0;
+    padding-left: 8%;
+
+
+    .title-r {
+
+      &.contact {
+
+      }
+    }
+
+    p {
+
+      &.contact {
+
+      }
+    }
+
+  }
+
+  .box {
+    padding: 20px;
+
+    .title-r {
+
+    }
+
+    &.route {
+      padding-top:25px !important;
+      margin:0;
+      margin-top: 15px;
+    }
+  }
+
+  .box{
+    &.route-menu {
+
+
+      &.active {
+
+      }
+
+      .title-tab {
+
+      }
+    }
+  }
+
+  //ticket
+  .event{
+    &.ticket {
+
+      .title-t {
+        font-size: 15px;
+      }
+
+      p {
+        font-size: 13px;
+      }
+
+      .border-r {
+        border:none;
+        padding-left: 0;
+        padding-top: 20px;
+
+        .quick-fix {
+
+        }
+
+        .circle {
+
+
+          i {
+
+          }
+
+          &:hover {
+
+          }
+        }
+        .qty {
+
+
+        }
+      }
+
+      .form-r {
+        .box {
+          padding-right: 15px;
+        }
+        &.form-r-c {
+          .box {
+          }
+        }
+
+        label {
+
+        }
+        .radio-btns {
+
+        }
+
+        .small-text {
+
+        }
+
+        .box{
+
+        }
+
+        .form-style {
+
+        }
+      }
+    }
+  }
+  //common
+  .gopublic,.techsoup{
+
+
+    .web-name-go {
+
+    }
+    .web-name-soup {
+
+    }
+  }
+
+
+  .more-down {
+
+
+    .down-icon {
+      padding: 10px;
+
+      i {
+        top: 1px;
+      }
+    }
+
+    .text {
+      font-size: 13px;
+    }
+  }
+
+  .btn-yellow2 {
+
+
+    i {
+
+    }
+  }
+
+  .box-img {
+
+  }
+
+
+
+  .box {
+
+
+    &.gopublic {
+
+    }
+
+    &.yellow-bg {
+      padding: 15px;
+      color: #fefefe;
+      padding-top: 14px;
+      padding-bottom: 1px;
+    }
+
+    .title-text {
+      font-size: 17px;
+    }
+    p {
+      font-size: 14px;
+
+      &.quote {
+        font-size: 13px;
+        line-height: 13px;
+      }
+    }
+  }
+
+  .right-navbar {
+    position: absolute;
+    right: 20px;
+  }
+}

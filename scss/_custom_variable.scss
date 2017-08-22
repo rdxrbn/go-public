@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'Proxima-Bold';
+  src: url('../fonts/ProximaNovaA-Bold.eot');
+  src: url('../fonts/ProximaNovaA-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/ProximaNovaA-Bold.woff2') format('woff2'),
+  url('../fonts/ProximaNovaA-Bold.woff') format('woff'),
+  url('../fonts/ProximaNovaA-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima-Regular';
+  src: url('../fonts/ProximaNova-Regular.eot');
+  src: url('../fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/ProximaNova-Regular.woff2') format('woff2'),
+  url('../fonts/ProximaNova-Regular.woff') format('woff'),
+  url('../fonts/ProximaNova-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima-Thin';
+  src: url('../fonts/ProximaNovaT-Thin.eot');
+  src: url('../fonts/ProximaNovaT-Thin.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/ProximaNovaT-Thin.woff2') format('woff2'),
+  url('../fonts/ProximaNovaT-Thin.woff') format('woff'),
+  url('../fonts/ProximaNovaT-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+$primary-yellow: #f8af00;
+$primary-green: #52b7a9;
+$text-title:#58b795;
+$text-event-title:#75c3b7;
+$programe-bg:#f4f4f4;
+$programe-text:#e4e4e4;
+$color-orange:#ff8300;
+$box-green:#58b795;
+$grey-light:#c6c6c6;
